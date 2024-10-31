@@ -98,3 +98,14 @@ Gunicorn's configuration file for deployment settings.
 ### `server.py`
 
 Entry point for running the server. Initializes the Flask application and Socket.IO communication events.
+
+
+## DOCKER Instructions
+##Build and Start the Containers: Run the following to build and start the containers:
+
+bash
+Copy code
+docker-compose up --build
+Access the Application:
+
+Open a browser and go to http://localhost:5000 to access the chat app.
